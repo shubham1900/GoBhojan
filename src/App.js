@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './Components/NavBar';
+import Settings from './Components/Settings';
+import Profile from './Components/Profile';
+import Carousel from './Components/Carousel';
+import Accordion_GoBhojan from './Components/Accordion_GoBhojan';
+import Card_GoBhojan from './Components/Card_GoBhojan';
+import Card_List from './Components/Card_List';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <NavBar />
+     <Carousel />
+     <Accordion_GoBhojan><Card_List></Card_List></Accordion_GoBhojan>
+     <Card_List>
+      <Card_List></Card_List>
+     </Card_List>
+     
+
+      </div>
   );
 }
 

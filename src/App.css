@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+.top-bar{
+  background-color: orange;
+  height: 40px;
+}
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
