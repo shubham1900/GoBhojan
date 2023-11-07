@@ -13,6 +13,7 @@ import {
 } from "@mui/material";
 import Card_GoBhojan from "./Card_GoBhojan";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Card_List from "./Card_List";
 
 const accordionStyle = {
   backgroundColor: "#607D8B",
@@ -32,8 +33,10 @@ export default class Accordion_GoBhojan extends Component {
           >
             <Typography color={"white"}>Cuisine Type</Typography>
             <Typography align="center" sx={{width:'100%'}} color={"white"} >Global culinary delights.</Typography>
+          
           </AccordionSummary>
           <AccordionDetails>
+          
             <Typography color={"white"}>
               Embark on a global culinary journey with our diverse Cuisine Type.
               From the spicy streets of India to the exotic flavors of Thailand,
@@ -43,7 +46,7 @@ export default class Accordion_GoBhojan extends Component {
             </Typography>
             
           </AccordionDetails>
-          <Card_GoBhojan />
+          <Card_List />
         </Accordion >
         <Accordion sx={accordionStyle}>
           <AccordionSummary
